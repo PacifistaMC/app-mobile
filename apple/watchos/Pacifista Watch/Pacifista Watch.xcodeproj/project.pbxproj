@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C606EF7D2B113F0E0061ABA0 /* Pacifista Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C606EF7C2B113F0E0061ABA0 /* Pacifista Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C606EF822B113F0E0061ABA0 /* Pacifista_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EF812B113F0E0061ABA0 /* Pacifista_WatchApp.swift */; };
+		C606EF862B113F100061ABA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C606EF852B113F100061ABA0 /* Assets.xcassets */; };
+		C606EF892B113F100061ABA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C606EF882B113F100061ABA0 /* Preview Assets.xcassets */; };
+		C606EF932B113F100061ABA0 /* Pacifista_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EF922B113F100061ABA0 /* Pacifista_Watch_Watch_AppTests.swift */; };
+		C606EF9D2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EF9C2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITests.swift */; };
+		C606EF9F2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EF9E2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITestsLaunchTests.swift */; };
+		C606EFB22B11408C0061ABA0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EFB12B11408C0061ABA0 /* WelcomeView.swift */; };
+		C606EFB62B11432E0061ABA0 /* ServerGetterInfosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EFB52B11432E0061ABA0 /* ServerGetterInfosService.swift */; };
+		C606EFB82B1143960061ABA0 /* MinecraftServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EFB72B1143960061ABA0 /* MinecraftServerInfo.swift */; };
+		C606EFBC2B1153A20061ABA0 /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606EFBB2B1153A20061ABA0 /* PlayersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C606EF7E2B113F0E0061ABA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C606EF702B113F0E0061ABA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C606EF7B2B113F0E0061ABA0;
+			remoteInfo = "Pacifista Watch Watch App";
+		};
+		C606EF8F2B113F100061ABA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C606EF702B113F0E0061ABA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C606EF7B2B113F0E0061ABA0;
+			remoteInfo = "Pacifista Watch Watch App";
+		};
+		C606EF992B113F100061ABA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C606EF702B113F0E0061ABA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C606EF7B2B113F0E0061ABA0;
+			remoteInfo = "Pacifista Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C606EFA52B113F100061ABA0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C606EF7D2B113F0E0061ABA0 /* Pacifista Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C606EF762B113F0E0061ABA0 /* Pacifista Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacifista Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C606EF7C2B113F0E0061ABA0 /* Pacifista Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacifista Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C606EF812B113F0E0061ABA0 /* Pacifista_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pacifista_WatchApp.swift; sourceTree = "<group>"; };
+		C606EF852B113F100061ABA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C606EF882B113F100061ABA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C606EF8E2B113F100061ABA0 /* Pacifista Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pacifista Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C606EF922B113F100061ABA0 /* Pacifista_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pacifista_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		C606EF982B113F100061ABA0 /* Pacifista Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pacifista Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C606EF9C2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pacifista_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		C606EF9E2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pacifista_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C606EFB12B11408C0061ABA0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C606EFB52B11432E0061ABA0 /* ServerGetterInfosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerGetterInfosService.swift; sourceTree = "<group>"; };
+		C606EFB72B1143960061ABA0 /* MinecraftServerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftServerInfo.swift; sourceTree = "<group>"; };
+		C606EFBB2B1153A20061ABA0 /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C606EF792B113F0E0061ABA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606EF8B2B113F100061ABA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606EF952B113F100061ABA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C606EF6F2B113F0E0061ABA0 = {
+			isa = PBXGroup;
+			children = (
+				C606EF802B113F0E0061ABA0 /* Pacifista Watch Watch App */,
+				C606EF912B113F100061ABA0 /* Pacifista Watch Watch AppTests */,
+				C606EF9B2B113F100061ABA0 /* Pacifista Watch Watch AppUITests */,
+				C606EF772B113F0E0061ABA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C606EF772B113F0E0061ABA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C606EF762B113F0E0061ABA0 /* Pacifista Watch.app */,
+				C606EF7C2B113F0E0061ABA0 /* Pacifista Watch Watch App.app */,
+				C606EF8E2B113F100061ABA0 /* Pacifista Watch Watch AppTests.xctest */,
+				C606EF982B113F100061ABA0 /* Pacifista Watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C606EF802B113F0E0061ABA0 /* Pacifista Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C606EFB32B1142650061ABA0 /* service */,
+				C606EFB02B113FBB0061ABA0 /* models */,
+				C606EFAF2B113FA60061ABA0 /* views */,
+				C606EF812B113F0E0061ABA0 /* Pacifista_WatchApp.swift */,
+				C606EF852B113F100061ABA0 /* Assets.xcassets */,
+				C606EF872B113F100061ABA0 /* Preview Content */,
+			);
+			path = "Pacifista Watch Watch App";
+			sourceTree = "<group>";
+		};
+		C606EF872B113F100061ABA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C606EF882B113F100061ABA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C606EF912B113F100061ABA0 /* Pacifista Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C606EF922B113F100061ABA0 /* Pacifista_Watch_Watch_AppTests.swift */,
+			);
+			path = "Pacifista Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		C606EF9B2B113F100061ABA0 /* Pacifista Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C606EF9C2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITests.swift */,
+				C606EF9E2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Pacifista Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		C606EFAF2B113FA60061ABA0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C606EFB12B11408C0061ABA0 /* WelcomeView.swift */,
+				C606EFBB2B1153A20061ABA0 /* PlayersView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C606EFB02B113FBB0061ABA0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C606EFB72B1143960061ABA0 /* MinecraftServerInfo.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C606EFB32B1142650061ABA0 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				C606EFB52B11432E0061ABA0 /* ServerGetterInfosService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C606EF752B113F0E0061ABA0 /* Pacifista Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C606EFA62B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch" */;
+			buildPhases = (
+				C606EF742B113F0E0061ABA0 /* Resources */,
+				C606EFA52B113F100061ABA0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C606EF7F2B113F0E0061ABA0 /* PBXTargetDependency */,
+			);
+			name = "Pacifista Watch";
+			productName = "Pacifista Watch";
+			productReference = C606EF762B113F0E0061ABA0 /* Pacifista Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C606EF7B2B113F0E0061ABA0 /* Pacifista Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C606EFA22B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch Watch App" */;
+			buildPhases = (
+				C606EF782B113F0E0061ABA0 /* Sources */,
+				C606EF792B113F0E0061ABA0 /* Frameworks */,
+				C606EF7A2B113F0E0061ABA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pacifista Watch Watch App";
+			productName = "Pacifista Watch Watch App";
+			productReference = C606EF7C2B113F0E0061ABA0 /* Pacifista Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C606EF8D2B113F100061ABA0 /* Pacifista Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C606EFA92B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch Watch AppTests" */;
+			buildPhases = (
+				C606EF8A2B113F100061ABA0 /* Sources */,
+				C606EF8B2B113F100061ABA0 /* Frameworks */,
+				C606EF8C2B113F100061ABA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C606EF902B113F100061ABA0 /* PBXTargetDependency */,
+			);
+			name = "Pacifista Watch Watch AppTests";
+			productName = "Pacifista Watch Watch AppTests";
+			productReference = C606EF8E2B113F100061ABA0 /* Pacifista Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C606EF972B113F100061ABA0 /* Pacifista Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C606EFAC2B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch Watch AppUITests" */;
+			buildPhases = (
+				C606EF942B113F100061ABA0 /* Sources */,
+				C606EF952B113F100061ABA0 /* Frameworks */,
+				C606EF962B113F100061ABA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C606EF9A2B113F100061ABA0 /* PBXTargetDependency */,
+			);
+			name = "Pacifista Watch Watch AppUITests";
+			productName = "Pacifista Watch Watch AppUITests";
+			productReference = C606EF982B113F100061ABA0 /* Pacifista Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C606EF702B113F0E0061ABA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C606EF752B113F0E0061ABA0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C606EF7B2B113F0E0061ABA0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C606EF8D2B113F100061ABA0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C606EF7B2B113F0E0061ABA0;
+					};
+					C606EF972B113F100061ABA0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C606EF7B2B113F0E0061ABA0;
+					};
+				};
+			};
+			buildConfigurationList = C606EF732B113F0E0061ABA0 /* Build configuration list for PBXProject "Pacifista Watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C606EF6F2B113F0E0061ABA0;
+			productRefGroup = C606EF772B113F0E0061ABA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C606EF752B113F0E0061ABA0 /* Pacifista Watch */,
+				C606EF7B2B113F0E0061ABA0 /* Pacifista Watch Watch App */,
+				C606EF8D2B113F100061ABA0 /* Pacifista Watch Watch AppTests */,
+				C606EF972B113F100061ABA0 /* Pacifista Watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C606EF742B113F0E0061ABA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606EF7A2B113F0E0061ABA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606EF892B113F100061ABA0 /* Preview Assets.xcassets in Resources */,
+				C606EF862B113F100061ABA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606EF8C2B113F100061ABA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606EF962B113F100061ABA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C606EF782B113F0E0061ABA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606EFBC2B1153A20061ABA0 /* PlayersView.swift in Sources */,
+				C606EFB82B1143960061ABA0 /* MinecraftServerInfo.swift in Sources */,
+				C606EFB22B11408C0061ABA0 /* WelcomeView.swift in Sources */,
+				C606EFB62B11432E0061ABA0 /* ServerGetterInfosService.swift in Sources */,
+				C606EF822B113F0E0061ABA0 /* Pacifista_WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606EF8A2B113F100061ABA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606EF932B113F100061ABA0 /* Pacifista_Watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606EF942B113F100061ABA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C606EF9D2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITests.swift in Sources */,
+				C606EF9F2B113F100061ABA0 /* Pacifista_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C606EF7F2B113F0E0061ABA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C606EF7B2B113F0E0061ABA0 /* Pacifista Watch Watch App */;
+			targetProxy = C606EF7E2B113F0E0061ABA0 /* PBXContainerItemProxy */;
+		};
+		C606EF902B113F100061ABA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C606EF7B2B113F0E0061ABA0 /* Pacifista Watch Watch App */;
+			targetProxy = C606EF8F2B113F100061ABA0 /* PBXContainerItemProxy */;
+		};
+		C606EF9A2B113F100061ABA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C606EF7B2B113F0E0061ABA0 /* Pacifista Watch Watch App */;
+			targetProxy = C606EF992B113F100061ABA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C606EFA02B113F100061ABA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C606EFA12B113F100061ABA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C606EFA32B113F100061ABA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pacifista Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pacifista Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		C606EFA42B113F100061ABA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pacifista Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pacifista Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		C606EFA72B113F100061ABA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pacifista Watch";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C606EFA82B113F100061ABA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pacifista Watch";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C606EFAA2B113F100061ABA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pacifista Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pacifista Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C606EFAB2B113F100061ABA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pacifista Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pacifista Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C606EFAD2B113F100061ABA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Pacifista Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C606EFAE2B113F100061ABA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWZT986J4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.pacifista.watch.Pacifista-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Pacifista Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C606EF732B113F0E0061ABA0 /* Build configuration list for PBXProject "Pacifista Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606EFA02B113F100061ABA0 /* Debug */,
+				C606EFA12B113F100061ABA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C606EFA22B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606EFA32B113F100061ABA0 /* Debug */,
+				C606EFA42B113F100061ABA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C606EFA62B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606EFA72B113F100061ABA0 /* Debug */,
+				C606EFA82B113F100061ABA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C606EFA92B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606EFAA2B113F100061ABA0 /* Debug */,
+				C606EFAB2B113F100061ABA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C606EFAC2B113F100061ABA0 /* Build configuration list for PBXNativeTarget "Pacifista Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C606EFAD2B113F100061ABA0 /* Debug */,
+				C606EFAE2B113F100061ABA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C606EF702B113F0E0061ABA0 /* Project object */;
+}
